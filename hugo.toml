@@ -1,0 +1,27 @@
+baseURL = "https://example.com/"
+title = "Glossary of the Questionnaire on Racism and Whiteness"
+author = "Vincent"
+copyright = "Circle Reflection on Racism"
+paginate = 10
+languageCode = "en"
+theme = "tailwind"
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  [params.header]
+    logo = "logo.webp"
+
+  [params.footer]
+    since = 2024
+    poweredby = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "post"
+    name = "Post"
+    pageRef = "/posts"
+    weight = 0
